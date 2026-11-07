@@ -1,0 +1,18 @@
+# Scan dumps and HTML reports from a real machine
+**/*account-cleanup*.json
+**/*-report.html
+account-cleanup-report.html
+
+# Local-only trees
+private/
+private-hold/
+.private-hold/
+
+# Secrets and archives
+*.zip
+.env
+.env.*
+
+.DS_Store
+__pycache__/
+*.pyc
