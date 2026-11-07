@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
-<rect width="100%" height="100%" fill="#17152e"/>
+<rect width="100%" height="100%" fill="#F8F9FA"/>
 <image href="../../icon.svg" x="36" y="389" width="302" height="302" preserveAspectRatio="xMidYMid meet"/>
-<text x="374" y="532" fill="#e8e4f4" font-family="system-ui, sans-serif" font-size="38" font-weight="600">seatsweep</text>
-<text x="374" y="588" fill="#98a2b6" font-family="system-ui, sans-serif" font-size="19">This Mac account, minus the leftovers. Scan first. iCloud stays.</text>
+<text x="374" y="532" fill="#202124" font-family="system-ui, sans-serif" font-size="38" font-weight="600">seatsweep</text>
+<text x="374" y="588" fill="#a99b83" font-family="system-ui, sans-serif" font-size="19">This Mac account, minus the leftovers. Scan first. iCloud stays.</text>
 </svg>

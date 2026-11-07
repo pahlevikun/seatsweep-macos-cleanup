@@ -5,11 +5,13 @@
 - **Mode:** one_shot
 - **Kit tier:** lite
 - **Library category:** oss_repo_mark
-- **Clichés to avoid:** broom clipart, trash-can glyph, mug (Murk), cloud-as-the-whole-logo, octocat or gnu-style mascot, scanline stripes, red/green diff rows
+- **Clichés to avoid:** broom clipart, trash-can glyph, mug (Murk), cloud-as-the-whole-logo, Chrome multicolor circle logo, octocat or gnu-style mascot, scanline stripes, red/green diff rows
 - **Grill mode:** skip (one_shot, copy and metaphor locked)
 - **Intent:** The four README assets should tell a macOS user that this account can feel newly created while the person, iCloud, and the keep-list tools stay. The mark is a dustpan seen from the side, stopped short of a small key and a small cloud. One gold lip is the only metal accent. Column 3 is a terminal that lists sample category totals, flags EXCLUDE keep, and waits for a category pick. Kit tier is lite, so the ship set is the four SVGs plus platform PNGs and social SVG+PNG. Library marks were study-only.
 - **Context sources:**
-  - `levistack/docs/assets/logo.svg` (palette and type; local theme file, not shipped here)
+  - Google Chrome brand color vocabulary (study only; **not** official Google branding): Blue `#4285F4`, Red `#EA4335`, Yellow `#FBBC04`, Green `#34A853`
+  - Material / Google gray text tokens: `#202124`, `#5F6368`, surfaces `#F8F9FA`, `#F1F3F4`, `#E8F0FE` (cloud tint only)
+  - Prior generation cited `levistack/docs/assets/logo.svg` for layout; palette superseded by Chrome-inspired bright theme (2026-11-07)
   - logo-kit-svg `references/token-table.md` (roles)
   - logo-kit-svg `references/svg-blueprints.md` (904×256 grid)
   - logo-kit-svg `references/banner-column-3.md` (column 3 mode)
@@ -29,7 +31,7 @@
 
 ## 1. Brand and copy
 
-- **Wordmark:** `seat` in `--fg` + `sweep` in `--accent` (9 chars)
+- **Wordmark:** `seat` in `#202124` + `sweep` in `#4285F4` (9 chars). Cursor strip: four 7px bands (blue, red, yellow, green).
 - **Wordmark cursor x:** formula `184 + ceil(9 × 20.2) = 366`. Drawn at `x="382"` so a wider fallback face still has about 8px of air. On IBM Plex that is about 16px, still under the 18px QA limit.
 - **Tagline:** This Mac account, minus the leftovers. Scan first. iCloud stays.
   Split across three 13px mono lines so each line stays left of `x=456` with a 24px gutter:
@@ -54,31 +56,28 @@ Mode is not `diff-hunks`. No red or green rows. No `-` or `+` lines. Sizes below
 
 ## 3. Color tokens
 
-Source file: `levistack/docs/assets/logo.svg` (the theme file named in the brief, not a path on this machine).
+Source: Chrome-inspired palette (not official Google branding). Roles follow `logo-kit-svg/references/token-table.md`.
 
-Roles follow `references/token-table.md`. Hex values are copied from that SVG. Token-table does not assign different hex values, so there is no conflict to override.
-
-| Role | Hex | Where it appears in logo.svg |
+| Role | Hex | Where |
 |---|---|---|
-| `--bg` | `#17152e` | outer rect fill, line 8 |
-| `--surface` | `#3a3358` | terminal card fill, line 74 |
-| `--surface2` | `#4a4f7a` | top bar fill, line 75 |
-| `--line` | `#3a3358` | outer stroke, line 8 |
-| `--line2` | `#4a4f7a` | card stroke, line 74 |
-| `--fg` | `#e8e4f4` | wordmark `levi`, line 61 |
-| `--muted` | `#98a2b6` | tagline, line 63 |
-| `--dim` | `#6a6fa0` | motto, line 71 |
-| `--accent` | `#c99d48` | wordmark `stack`, line 61, lip ellipse line 52 |
-| `--amber-bg` | `#3a3358` | pill fill, line 65 |
-| `--accent-dim` | `#b2853a` | gold band stroke, line 65 |
-| teal band | `#3c7f7c` | line 36 |
-| purple band | `#66589a` | line 37 |
-| secondary text | `#c6cddb` | pill text, line 69 |
-| divider | `#566782` | terminal rules, line 78 |
+| `--bg` | `#F8F9FA` | banner, icon tile, social cards |
+| `--surface` | `#FFFFFF` | terminal card, panels |
+| `--surface2` | `#F1F3F4` | terminal top bar |
+| `--line` | `#DADCE0` | outer stroke, rules |
+| `--line2` | `#E8EAED` | card stroke |
+| `--fg` | `#202124` | wordmark `seat`, list headings |
+| `--muted` | `#5F6368` | tagline, waiting line, key outline |
+| `--dim` | `#80868B` | motto |
+| `--accent` | `#4285F4` | wordmark `sweep`, chip text, EXCLUDE label |
+| chrome-yellow | `#FBBC04` | dustpan lip |
+| chrome-red / green | `#EA4335` / `#34A853` | window dots, pill strokes |
+| cloud fill | `#E8F0FE` | iCloud cloud only |
+| pan stroke | `#3C4043` | dustpan body |
+| pill fill | `#F1F3F4` | column 2 pills |
 
-`--del` and `--add` are omitted. Column 3 is not `diff-hunks` (`token-table.md`, `banner-column-3.md`).
+`--del` and `--add` are omitted. Column 3 is `feature-summary`.
 
-Flat solid `#17152e` only. No scanlines, no blur filters, no fog ellipses.
+Flat `#F8F9FA` only. No scanlines. No Chrome circle mark.
 
 ## 4. Type
 
@@ -86,7 +85,7 @@ IBM Plex Sans for the wordmark and motto. IBM Plex Mono for the tagline, pills, 
 
 ## 5. Mark
 
-Side-view dustpan: short grip, back wall, floor, one gold lip. The lip stops short of a small key (Keychain stays) and a small cloud (iCloud stays). Stroke-dash draw on the animated files. No mug. No broom.
+Side-view dustpan: short grip, back wall, floor, yellow chrome lip. The lip stops short of a small key (Keychain stays) and a light-blue cloud (iCloud stays). Stroke-dash draw on the animated files. No mug. No broom. Not the Chrome logo.
 
 ## 6. Animation
 
