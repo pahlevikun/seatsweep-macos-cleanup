@@ -14,6 +14,8 @@ I make this macOS account feel new. I do not erase the Mac. I do not delete the 
 npx skills@latest add pahlevikun/seatsweep-macos-cleanup
 ```
 
+MIT License. See [LICENSE](LICENSE). Releases: [CHANGELOG](CHANGELOG.md).
+
 ## How a run goes
 
 Confirm the keep list before the scan. iCloud, the macOS user, OS setup, folder layout, the terminal, and the agent tools stay. The full list is in [references/keep-policy.md](references/keep-policy.md).

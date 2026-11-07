@@ -1,6 +1,6 @@
 ---
 name: seatsweep-macos-cleanup
-description: Cleans a macOS user account toward a freshly-created feel without factory-resetting or deleting the user. Scans known leftover buckets (browser data, extra apps, OS caches, leftover CLIs, Homebrew unused, simulator runtimes), lists sizes, then deletes only the categories the user picks. Use when the user wants a fresh macOS account, laptop cleanup, wipe-this-user-but-keep-the-account, or an account that feels newly created while keeping iCloud, OS setup, folder layout, terminal, and agentic tools.
+description: macOS account cleanup — scan leftover buckets (browser data, apps, caches, CLIs, Homebrew unused, simulators), list sizes, delete only categories you pick. iCloud, Keychain, and the keep list stay. No factory reset. Use for fresh account feel, disk reclaim, laptop cleanup, or Homebrew prune. Not for Chrome migration (use seatpack-chrome-backup).
 ---
 
 <objective>
