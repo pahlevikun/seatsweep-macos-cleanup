@@ -4,7 +4,7 @@
 
 # <img src="assets/icon.svg" alt="" width="28" height="28" align="top" /> seatsweep
 
-*A dustpan with a keep list.*
+*The cloud and the key stay.*
 
 I make this macOS account feel new. I do not erase the Mac. I do not delete the user. I do not sign out of iCloud. I scan, I list sizes, and I wait. I delete only the categories you name.
 

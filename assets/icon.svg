@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" role="img" aria-label="seatsweep icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" role="img" aria-label="seatsweep icon, cloud and key stay">
   <rect x="24" y="24" width="464" height="464" rx="104" fill="#F8F9FA" stroke="#DADCE0" stroke-width="6"/>
   <g transform="translate(56, 56)">
-    <path d="M 72 108 L 104 128 L 104 292 L 246 292" fill="none" stroke="#3C4043" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M 228 292 C 266 292 286 264 294 228" fill="none" stroke="#FBBC04" stroke-width="26" stroke-linecap="round"/>
-    <path d="M 334 250 A 14 14 0 1 1 362 250 A 14 14 0 1 1 334 250 M 362 250 L 396 250 M 380 250 L 380 266 M 392 250 L 392 260" fill="none" stroke="#5F6368" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M 328 150 C 328 126 352 118 368 134 C 380 116 414 122 412 146 C 432 150 428 178 404 180 L 352 180 C 326 180 318 164 328 150 Z" fill="#E8F0FE" stroke="#5F6368" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 204 100 C 168 100 144 130 158 154 C 128 162 122 198 152 214 C 170 254 228 244 244 210 C 282 210 298 174 274 152 C 280 116 238 94 204 100 Z" fill="#DDF3E8" stroke="#8FD4A8" stroke-width="12" stroke-linejoin="round"/>
+    <circle cx="204" cy="292" r="36" fill="#FFFFFF" stroke="#93B8F5" stroke-width="12"/>
+    <circle cx="204" cy="292" r="14" fill="#D6E8FF"/>
+    <path d="M 204 328 L 204 368 L 280 368 L 280 344" fill="none" stroke="#93B8F5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>

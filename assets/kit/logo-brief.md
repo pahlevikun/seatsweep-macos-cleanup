@@ -7,7 +7,7 @@
 - **Library category:** oss_repo_mark
 - **Clichés to avoid:** broom clipart, trash-can glyph, mug (Murk), cloud-as-the-whole-logo, Chrome multicolor circle logo, octocat or gnu-style mascot, scanline stripes, red/green diff rows
 - **Grill mode:** skip (one_shot, copy and metaphor locked)
-- **Intent:** The four README assets should tell a macOS user that this account can feel newly created while the person, iCloud, and the keep-list tools stay. The mark is a dustpan seen from the side, stopped short of a small key and a small cloud. One gold lip is the only metal accent. Column 3 is a terminal that lists sample category totals, flags EXCLUDE keep, and waits for a category pick. Kit tier is lite, so the ship set is the four SVGs plus platform PNGs and social SVG+PNG. Library marks were study-only.
+- **Intent:** The four README assets should tell a macOS user that this account can feel newly created while the person, iCloud, and the keep-list tools stay. The mark is only a cloud (iCloud) and a key (Keychain). No dustpan. Column 3 is a terminal that lists sample category totals, flags EXCLUDE keep, and waits for a category pick. Kit tier is lite. Library marks were study-only.
 - **Context sources:**
   - Google Chrome brand color vocabulary (study only; **not** official Google branding): Blue `#4285F4`, Red `#EA4335`, Yellow `#FBBC04`, Green `#34A853`
   - Material / Google gray text tokens: `#202124`, `#5F6368`, surfaces `#F8F9FA`, `#F1F3F4`, `#E8F0FE` (cloud tint only)
@@ -41,7 +41,7 @@
 - **Pill 1:** `scan first` (10 chars). Width `10 × 7.2 + 32 = 104`. Dot at x=13, text at x=24.
 - **Pill 2:** `iCloud stays` (12 chars). Width `12 × 7.2 + 32 = 118.4`, drawn `119`. x=`104 + 8 = 112`.
 - **Combined pills:** `104 + 8 + 119 = 231`. Origin x=186, right edge 417. Gutter to column 3 (`x=456`) is 39px.
-- **Motto:** A dustpan with a keep list.
+- **Motto:** The cloud and the key stay.
 
 ## 2. Column 3 card copy
 
@@ -69,10 +69,10 @@ Source: Chrome-inspired palette (not official Google branding). Roles follow `lo
 | `--muted` | `#5F6368` | tagline, waiting line, key outline |
 | `--dim` | `#80868B` | motto |
 | `--accent` | `#4285F4` | wordmark `sweep`, chip text, EXCLUDE label |
-| chrome-yellow | `#FBBC04` | dustpan lip |
+| chrome-yellow | `#FBBC04` | wordmark cursor |
 | chrome-red / green | `#EA4335` / `#34A853` | window dots, pill strokes |
 | cloud fill | `#E8F0FE` | iCloud cloud only |
-| pan stroke | `#3C4043` | dustpan body |
+| body text | `#3C4043` | reserved |
 | pill fill | `#F1F3F4` | column 2 pills |
 
 `--del` and `--add` are omitted. Column 3 is `feature-summary`.
@@ -85,7 +85,7 @@ IBM Plex Sans for the wordmark and motto. IBM Plex Mono for the tagline, pills, 
 
 ## 5. Mark
 
-Side-view dustpan: short grip, back wall, floor, yellow chrome lip. The lip stops short of a small key (Keychain stays) and a light-blue cloud (iCloud stays). Stroke-dash draw on the animated files. No mug. No broom. Not the Chrome logo.
+Stacked mark: green cloud (iCloud) over a blue key ring and stem (Keychain). Centered in the rounded square. Stroke-dash draw on cloud then key in animated files. Not the Chrome logo. Not Apple iCloud artwork.
 
 ## 6. Animation
 

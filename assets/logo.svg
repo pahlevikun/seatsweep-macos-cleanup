@@ -3,44 +3,44 @@
 
   <g transform="translate(28, 60)">
     <rect x="0" y="0" width="136" height="136" rx="32" fill="#FFFFFF" stroke="#DADCE0" stroke-width="2"/>
-    <g transform="translate(8, 8) scale(0.3)">
-      <path d="M 72 108 L 104 128 L 104 292 L 246 292" fill="none" stroke="#3C4043" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M 228 292 C 266 292 286 264 294 228" fill="none" stroke="#FBBC04" stroke-width="26" stroke-linecap="round"/>
-      <path d="M 334 250 A 14 14 0 1 1 362 250 A 14 14 0 1 1 334 250 M 362 250 L 396 250 M 380 250 L 380 266 M 392 250 L 392 260" fill="none" stroke="#5F6368" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M 328 150 C 328 126 352 118 368 134 C 380 116 414 122 412 146 C 432 150 428 178 404 180 L 352 180 C 326 180 318 164 328 150 Z" fill="#E8F0FE" stroke="#5F6368" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(18, 18) scale(0.24)">
+      <path d="M 204 100 C 168 100 144 130 158 154 C 128 162 122 198 152 214 C 170 254 228 244 244 210 C 282 210 298 174 274 152 C 280 116 238 94 204 100 Z" fill="#DDF3E8" stroke="#8FD4A8" stroke-width="12" stroke-linejoin="round"/>
+      <circle cx="204" cy="292" r="36" fill="#FFFFFF" stroke="#93B8F5" stroke-width="12"/>
+      <circle cx="204" cy="292" r="14" fill="#D6E8FF"/>
+      <path d="M 204 328 L 204 368 L 280 368 L 280 344" fill="none" stroke="#93B8F5" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
   </g>
 
-  <text x="184" y="100" font-family="IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="38" font-weight="700" letter-spacing="-0.6"><tspan fill="#202124">seat</tspan><tspan fill="#4285F4">sweep</tspan></text>
-  <rect x="382" y="74" width="10" height="7" rx="2" fill="#4285F4" opacity="0.92"/>
-  <rect x="382" y="81" width="10" height="7" rx="2" fill="#EA4335" opacity="0.92"/>
-  <rect x="382" y="88" width="10" height="7" rx="2" fill="#FBBC04" opacity="0.92"/>
-  <rect x="382" y="95" width="10" height="7" rx="2" fill="#34A853" opacity="0.92"/>
+  <text x="184" y="100" font-family="IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="38" font-weight="700" letter-spacing="-0.6"><tspan fill="#202124">seat</tspan><tspan fill="#7BAFE0">sweep</tspan></text>
+  <rect x="382" y="74" width="10" height="7" rx="2" fill="#93B8F5" opacity="0.92"/>
+  <rect x="382" y="81" width="10" height="7" rx="2" fill="#F4A9A4" opacity="0.92"/>
+  <rect x="382" y="88" width="10" height="7" rx="2" fill="#F9DC7A" opacity="0.92"/>
+  <rect x="382" y="95" width="10" height="7" rx="2" fill="#8FD4A8" opacity="0.92"/>
 
   <text x="186" y="124" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="500" fill="#5F6368">This Mac account,</text>
   <text x="186" y="142" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="500" fill="#5F6368">minus the leftovers.</text>
   <text x="186" y="160" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="500" fill="#5F6368">Scan first. iCloud stays.</text>
 
   <g transform="translate(186, 172)" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="600">
-    <rect x="0" y="0" width="104" height="26" rx="6" fill="#F1F3F4" stroke="#FBBC04" stroke-width="1.2"/>
-    <circle cx="13" cy="13" r="3.5" fill="#EA4335"/>
+    <rect x="0" y="0" width="104" height="26" rx="6" fill="#F1F3F4" stroke="#F9DC7A" stroke-width="1.2"/>
+    <circle cx="13" cy="13" r="3.5" fill="#F4A9A4"/>
     <text x="24" y="17" fill="#202124">scan first</text>
-    <rect x="112" y="0" width="119" height="26" rx="6" fill="#F1F3F4" stroke="#34A853" stroke-width="1.2"/>
+    <rect x="112" y="0" width="119" height="26" rx="6" fill="#F1F3F4" stroke="#8FD4A8" stroke-width="1.2"/>
     <text x="128" y="17" fill="#5F6368">iCloud stays</text>
   </g>
 
-  <text x="186" y="220" font-family="IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" fill="#80868B">A dustpan with a keep list.</text>
+  <text x="186" y="220" font-family="IBM Plex Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" fill="#80868B">The cloud and the key stay.</text>
 
   <g transform="translate(456, 22)">
     <rect x="0" y="0" width="424" height="212" rx="12" fill="#FFFFFF" stroke="#E8EAED" stroke-width="1.5"/>
     <path d="M 0 12 A 12 12 0 0 1 12 0 H 412 A 12 12 0 0 1 424 12 V 36 H 0 Z" fill="#F1F3F4"/>
     <line x1="0" y1="36" x2="424" y2="36" stroke="#DADCE0" stroke-width="1.2"/>
-    <circle cx="16" cy="18" r="4" fill="#EA4335" />
-    <circle cx="30" cy="18" r="4" fill="#FBBC04"/>
-    <circle cx="44" cy="18" r="4" fill="#34A853"/>
-    <rect x="62" y="8" width="118" height="20" rx="5" fill="#FFFFFF" stroke="#4285F4" stroke-width="1"/>
-    <circle cx="73" cy="18" r="3" fill="#4285F4"/>
-    <text x="82" y="22" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600" fill="#4285F4">scan $HOME</text>
+    <circle cx="16" cy="18" r="4" fill="#F4A9A4" />
+    <circle cx="30" cy="18" r="4" fill="#F9DC7A"/>
+    <circle cx="44" cy="18" r="4" fill="#8FD4A8"/>
+    <rect x="62" y="8" width="118" height="20" rx="5" fill="#FFFFFF" stroke="#7BAFE0" stroke-width="1"/>
+    <circle cx="73" cy="18" r="3" fill="#93B8F5"/>
+    <text x="82" y="22" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" font-weight="600" fill="#93B8F5">scan $HOME</text>
     <text x="340" y="22" font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" fill="#5F6368">dry run</text>
 
     <g font-family="IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
@@ -50,8 +50,8 @@
       <text x="330" y="78" fill="#5F6368">640M</text>
       <text x="18" y="98" fill="#202124" font-weight="600">Homebrew unused</text>
       <text x="330" y="98" fill="#5F6368">96M</text>
-      <rect x="10" y="108" width="404" height="26" rx="6" fill="#FFFFFF" stroke="#4285F4" stroke-width="1.2"/>
-      <text x="20" y="125" fill="#4285F4" font-weight="600">EXCLUDE keep</text>
+      <rect x="10" y="108" width="404" height="26" rx="6" fill="#FFFFFF" stroke="#7BAFE0" stroke-width="1.2"/>
+      <text x="20" y="125" fill="#7BAFE0" font-weight="600">EXCLUDE keep</text>
       <text x="300" y="125" fill="#202124">iCloud</text>
       <text x="18" y="156" fill="#5F6368">waiting for a category pick</text>
     </g>
@@ -63,8 +63,8 @@
       <text x="68" y="200" fill="#5F6368">list</text>
       <text x="98" y="200" fill="#DADCE0">&#8594;</text>
       <text x="114" y="200" fill="#5F6368">wait</text>
-      <rect x="168" y="186" width="140" height="20" rx="4" fill="#FFFFFF" stroke="#4285F4" stroke-width="1"/>
-      <text x="180" y="200" fill="#4285F4">your category</text>
+      <rect x="168" y="186" width="140" height="20" rx="4" fill="#FFFFFF" stroke="#7BAFE0" stroke-width="1"/>
+      <text x="180" y="200" fill="#7BAFE0">your category</text>
     </g>
   </g>
 </svg>
